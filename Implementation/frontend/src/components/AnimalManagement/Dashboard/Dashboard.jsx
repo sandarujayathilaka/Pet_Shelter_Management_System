@@ -34,6 +34,7 @@ function Dashboard() {
   const { user } = useSelector((state) => state.auth);
 
   useEffect(() => {
+    console.log(user.token)
     async function healthCounts() {
       try {
         const response = await axios.get(

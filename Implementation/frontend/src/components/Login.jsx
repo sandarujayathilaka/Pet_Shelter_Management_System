@@ -29,7 +29,7 @@ const Login = () => {
     }
 
     if (isSuccess || user) {
-      navigate("/");
+      navigate("/petprofile");
     }
 
     dispatch(reset());

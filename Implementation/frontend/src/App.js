@@ -159,6 +159,7 @@ function App() {
             <Route path="registerevent/:id" element={<RegisterEvent />} />
             <Route path="feedbackevent/:id" element={<AddEventFeedback />} />
             <Route path="test" element={<Spinner />} />
+            
             <Route path="petprofile" element={<VetPortal />}>
               <Route path="updatepet/:id" element={<UpdatePetProfile />} />
               <Route path="allpetprofile" element={<AllPetProfile />} />
