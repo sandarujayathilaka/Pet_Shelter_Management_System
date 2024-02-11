@@ -15,8 +15,9 @@ Implemented the main dashboard for the Pet shelter manager.
 * Pet Profile Handling with QR Code
 * Pet Vaccination Handling
 * Interactive dashboard
+* Generate Vaccination Report
 * Pet Breed Management Part
-* Pet admitting process handling
+* Pet admitting process handling with status
 
 ## Technologies Used
 
